@@ -1,0 +1,74 @@
+<!-- This is a comment tag -->
+<!DOCTYPE html>
+<h1></h1> upto <h6></h6>
+<p></p>
+<a href="link" >text for the link</a>
+<a href="mailto:emailid">text</a>
+<a href="tel:+number>Number</a>
+The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+<address></address>
+<br>
+<hr>
+<article>
+  <h2>Microsoft Edge</h2>
+  <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+</article>
+<aside></aside>
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<b> BOLD TEXT </b>
+<button> CLICK ME </button>
+<caption>This is my table for roll no</caption>
+this is my dummy paragraph<del>not<del>good
+<details> </details>
+<div class="myDiv">
+  <h2>This is a heading in a div element</h2>
+  <p>This is some text in a div element.</p>
+</div>
+#CSS <style>
+.myDiv{text-align:center;}</style>
+<dl>	#description list
+  <dt>Coffee</dt>	
+  <dd>Black hot drink</dd>	#description data
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+<p>My name is <em>ishita</em>
+<footer>
+  <p>Author: Hege Refsnes</p>
+  <p><a href="hege@example.com">hege@example.com</a></p>
+</footer>
+<head>
+  <title>Title of the document</title>
+</head>
+<img src="" alt=""></img>
+<link  rel="spreadsheet" href="style.css/java.js">	#inside the head part
+<nav>
+  <a href="/html/">HTML</a> |
+  <a href="/css/">CSS</a> |
+  <a href="/js/">JavaScript</a> |
+  <a href="/python/">Python</a>
+</nav>
+<pre>
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks
+</pre>
+<p style="color:blue;"> BLUE</p>	#Inline CSS
+<style>
+h1{
+	colour=red;
+     }
+</style>				#internal CSS
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+
+

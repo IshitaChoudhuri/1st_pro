@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Infinity</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-l"><img src="Infinity.png" class="logo">   
+        <ul>
+            <li><img src="notification.png" alt="notification"></li>
+            <li><img src="inbox.png" alt="inbox"></li>
+            <li><img src="video.png" alt="video"></li>
+        </ul>
+    </div> 
+        <div class="nav-r">
+            <div class="search">
+                <img src="search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="user-icon online" onclick="settingsMenuToggle()">
+                <img src="me.jpg">
+            </div>
+        </div>
+
+        <div class="settings">
+            <div id="dark-btn">
+                <span>
+                    
+                </span>
+            </div>
+            <div class= "inner-settings">
+                <div class="user">
+                    <img src="me.jpg" alt="me">
+                    <div>
+                        <p>Ishita Choudhuri</p>
+                        <a href="#">Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user">
+                    <img src="feedback.png" alt="me">
+                    <div>
+                        <p> Give Feedback</p>
+                        <a href="#">Help us the new Infinity</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-link">
+                    <img src="setting.png" alt="setting" class="setting-icon">
+                    <a href="https://www.infinity.com/settings/?tab=account">Settings & Privacy <img src="arrow.png" alt="arrow" width="10px"></a>
+                </div>
+                <div class="setting-link">
+                    <img src="help.png" alt="help" class="setting-icon">
+                    <a href="https://www.infinity.com/help/?ref=contextual">Help & Support <img src="arrow.png" alt="arrow" width="10px"></a>
+                </div>
+                <div class="setting-link">
+                    <img src="display.png" alt="display" class="setting-icon">
+                    <a href="#">Display & Accessibility <img src="arrow.png" alt="arrow" width="10px"></a>
+                </div>
+                <div class="setting-link">
+                    <img src="logout.png" alt="logout" class="setting-icon">
+                    <a href="#">Log Out <img src="arrow.png" alt="arrow" width="10px"></a>
+                </div>
+                <!-- The links are used just for writing purpose. They don't exist in real life. -->
+            </div>
+            
+        </div>
+
+    </nav>
+    <div class="container">
+        <div class="l-bar">
+            <div class="imp-links">
+                <a href="https://www.infinity.com/friends" target="_blank"><img src="friends.png">FRIENDS</a>
+                <a href="https://www.infinity.com/groups/feed/" target="_blank"><img src="group.png">GROUPS</a>
+                <a href="https://www.infinity.com/watch/livecalcuttanews/" target="_blank"><img src="news.png">NEWS</a>
+                <a href="https://www.infinity.com/marketplace/?ref=bookmark" target="_blank"><img src="marketplace.png">MARKETPLACE</a>
+                <a href="https://www.infinity.com/watch" target="_blank"><img src="watch.png">WATCH</a>
+                <a href="#" target="_blank">SEE MORE</a>
+                <!-- The links are used just for writing purpose. They don't exist in real life. -->
+            </div>
+            <div class="shortcut-links">
+                <p>SHORTCUTS</p>
+                <a href="https://www.udemy.com/course/the-complete-web-developer-course-2/?gclid=Cj0KCQiA8ICOBhDmARIsAEGI6o2T4AaAf8KUy7kJs_2BrsdTO3OnjzD5L12mAgy4xtFHYK-UOQIG8JIaAqk2EALw_wcB&matchtype=e&utm_campaign=WebDevelopment_v.PROF_la.EN_cc.INDIA_ti.8322&utm_content=deal4584&utm_medium=udemyads&utm_source=adwords&utm_term=_._ag_82381205698_._ad_533094291579_._kw_web+development+course_._de_c_._dm__._pl__._ti_kwd-101361529_._li_9299026_._pd__._" target="_blank"><img src="shortcut-1.png" alt="short-1">WEB DEVELOPERS</a>
+                <a href="https://www.udemy.com/topic/web-design/" target="_blank"><img src="shortcut-2.png" alt="short-2">WEB DESIGNING</a>
+                <a href="https://www.udemy.com/course/the-full-stack-web-development/?gclid=Cj0KCQiA8ICOBhDmARIsAEGI6o0Gele5toOfoZRZ0Yl6MBoYjue4CQSgEMwZ2W6Nhz57dWCwKyYIXosaAg9MEALw_wcB&matchtype=e&utm_campaign=WebDevelopment_v.PROF_la.EN_cc.INDIA_ti.8322&utm_content=deal4584&utm_medium=udemyads&utm_source=adwords&utm_term=_._ag_82381206618_._ad_533094291819_._kw_full+stack+developer+course_._de_c_._dm__._pl__._ti_kwd-112473342260_._li_9299026_._pd__._" target="_blank"><img src="shortcut-3.png" alt="short-3">FULL-TIME STACK</a>
+                <a href="https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/?utm_source=adwords&utm_medium=udemyads&utm_campaign=LongTail_la.EN_cc.INDIA&utm_content=deal4584&utm_term=_._ag_77882236463_._ad_533220806573_._kw__._de_c_._dm__._pl__._ti_dsa-1007766171312_._li_9299026_._pd__._&matchtype=&gclid=Cj0KCQiA8ICOBhDmARIsAEGI6o255Q_DwkZZf4MK97fdHmNjTUC87_ECLbMPuB8kdwPYY2SCTCVkbGYaApDvEALw_wcB" target="_blank"><img src="shortcut-4.png" alt="short-4">DATA SCIENCE</a>
+     
+            </div>
+        </div>
+        <div class="main">
+            <div class="stories">
+                <div class="story story1">
+                    <img src="upload.png" alt="upload">
+                    <p>Add a Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="member-7.png" alt="upload">
+                    <p>Jason</p>
+                </div>
+                <div class="story story3">
+                    <img src="member-8.png" alt="upload">
+                    <p>Maira</p>
+                </div>
+                <div class="story story4">
+                    <img src="member-4.png" alt="upload">
+                    <p>Mathew</p>
+                </div>
+                <div class="story story5">
+                    <img src="member-2.png" alt="upload">
+                    <p>Jacob</p>
+                </div>
+            </div>
+
+            <div class="write-container">
+                <div class="user">
+                    <img src="me.jpg" alt="me">
+                    <div>
+                        <p>Ishita Choudhuri</p>
+                        <small>Public  <i class="fas fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <textarea rows="3" placeholder="What's on your mind, Ishita"></textarea>
+                    <div class="addpost">
+                        <a href=""><img src="live-video.png" alt="video">Live video</a>
+                        <a href=""><img src="photo.png" alt="video">Photo video</a>
+                        <a href=""><img src="feeling.png" alt="video">Feeling Activity</a>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="post1">
+                <div class="post-row">
+                    <div class="user">
+                        <img src="me.jpg" alt="me">
+                        <div>
+                            <p>Ishita Choudhuri</p>
+                            <span>November 20, 21:19 </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="p-txt">Follow me on Github <b>@Sushi2021</b>. Upcoming codes to be posted soon. <a href="https://github.com/Sushi2021" target="_blank">Github Profile</a></p>
+                <img src="feed-image-1.png" alt="feed" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity">
+                        <div><img src="like-blue.png" alt="like"> 150</div>
+                        <div><img src="comments.png" alt="comment"> 50</div>
+                        <div><img src="share.png" alt="share"> 15</div>
+                    </div>
+                    <div class="profile-icon">
+                        <img src="me.jpg" alt="me"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post1">
+                <div class="post-row">
+                    <div class="user">
+                        <img src="member-7.png" alt="Jason">
+                        <div>
+                            <p>Jason</p>
+                            <span>November 16, 13:19 </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="p-txt"><b>Friendship</b> is a divine relationship. We don’t have similarities in our blood, but still, that person cares for us. Irrespective of all differences, a friend chooses you, understands you, and supports you. Whenever you are in self-doubt or lacking confidence, talk to a friend, and your worry will surely go away.</p>
+                <img src="feed-image-2.png" alt="feed" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity">
+                        <div><img src="like.png" alt="like"> 2k</div>
+                        <div><img src="comments.png" alt="comment"> 500</div>
+                        <div><img src="share.png" alt="share"> 150</div>
+                    </div>
+                    <div class="profile-icon">
+                        <img src="member-7.png" alt="me"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post1">
+                <div class="post-row">
+                    <div class="user">
+                        <img src="member-6.png" alt="Jacqueline">
+                        <div>
+                            <p>Jacqueline</p>
+                            <span>November 16, 01:05 </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="p-txt"><b>"Group"</b> is a collection of individuals who have regular contact and frequent interaction and who work together to achieve a common set of goals. <b>"Discussion"</b> is the process whereby two or more people exchange information or ideas in a face-to-face situation to achieve a goal. The goal, or end product, maybe increased knowledge, agreement leading to action, disagreement leading to competition or resolution or perhaps only a clearing of the air or a continuation of the status-quo.</p>
+                <img src="feed-image-5.png" alt="feed" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity">
+                        <div><img src="like.png" alt="like"> 350</div>
+                        <div><img src="comments.png" alt="comment"> 24</div>
+                        <div><img src="share.png" alt="share"> 10</div>
+                    </div>
+                    <div class="profile-icon">
+                        <img src="member-6.png" alt="me"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post1">
+                <div class="post-row">
+                    <div class="user">
+                        <img src="member-9.png" alt="Alen">
+                        <div>
+                            <p>Alen</p>
+                            <span>November 15, 15:50 </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="p-txt">Self-love is not being selfish; it is just putting yourself first and not being too tough on yourself. So next time you hear that little voice in your head telling you that you are not good enough or that you cannot afford to make mistakes; just ignore it.</p>
+                <img src="feed-image-4.png" alt="feed" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity">
+                        <div><img src="like-blue.png" alt="like"> 5k</div>
+                        <div><img src="comments.png" alt="comment"> 50</div>
+                        <div><img src="share.png" alt="share"> 50</div>
+                    </div>
+                    <div class="profile-icon">
+                        <img src="member-9.png" alt="me"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post1">
+                <div class="post-row">
+                    <div class="user">
+                        <img src="member-6.png" alt="Sana">
+                        <div>
+                            <p>Sana</p>
+                            <span>November 14, 10:25 </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="p-txt">“Anything is possible when you have the right people there to support you.” — Misty Copeland</p>
+                <img src="feed-image-3.png" alt="feed" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity">
+                        <div><img src="like.png" alt="like"> 299</div>
+                        <div><img src="comments.png" alt="comment"> 54</div>
+                        <div><img src="share.png" alt="share"> 12</div>
+                    </div>
+                    <div class="profile-icon">
+                        <img src="member-6.png" alt="me"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <button type="button" class="LoadMoreButton"> Load More</button>
+
+        </div>
+        <div class="r-bar">
+
+            <div class="sidebar-title">
+            <h4>EVENTS</h4>
+            <a href="#">SEE ALL</a>
+            </div>
+
+            <div class="events">
+                <div class="l-event">
+                    <h3>23-27</h3>
+                    <span>December</span>
+                </div>
+                <div class="r-event">
+                    <h4>Poush-Mela</h4>
+                    <p><i class="fas fa-thumbtack"></i>Dak Bungalow</p>
+                    <a href="https://www.etvbharat.com/bengali/west-bengal/state/birbhum/alternative-fair-of-poush-mela-2021-will-be-held-at-bolpur-dak-bunglow-ground/wb20211214224308434" target="_blank">MORE INFO</a>
+                </div>
+            </div>
+            <br>
+            <div class="events">
+                <div class="l-event">
+                    <h3>25</h3>
+                    <span>December</span>
+                </div>
+                <div class="r-event">
+                    <h4>Christamas</h4>
+                    <p><i class="fas fa-thumbtack"></i>Park-Street</p>
+                    <a href="https://www.travelandleisureindia.in/featured/park-street-christmas/" target="_blank">MORE INFO</a>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="sidebar-title">
+                <h4>ADVERTISEMENT</h4>
+                <a href="#">CLOSE</a>
+            </div>
+            <img src="advertisement.png" alt="ads" class="sidebar-ads">
+
+            <div class="sidebar-title">
+                <h4>Text-Messages</h4>
+                <a href="#">Hidden Chats</a>
+            </div>
+
+            <div class="online-ppl">
+                <div class="online">
+                    <img src="member-1.png" alt="Jacob">
+                </div>
+                <p>Alice</p>
+            </div>
+            <div class="online-ppl">
+                <div class="online">
+                    <img src="member-2.png" alt="">
+                </div>
+                <p>Jacob</p>
+            </div>
+            <div class="online-ppl">
+                <div class="online">
+                    <img src="member-3.png" alt="">
+                </div>
+                <p>Jasmine</p>
+            </div>
+
+
+
+        </div>
+        
+    </div>
+<div class="footer">
+    <p>Copyright 2021 - Ishita Choudhuri</p>
+</div>
+<script src="java.js"></script>
+</body>
+</html>

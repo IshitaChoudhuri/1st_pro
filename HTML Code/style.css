@@ -1,0 +1,58 @@
+/* ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    background-color: skyblue;
+    position: fixed;
+    height: 20%;
+    overflow: auto;
+}
+body{
+    margin: 0;
+}
+ul a{
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+
+
+}
+
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+    li a:hover {
+        background-color: red;
+      } 
+
+li{
+    float: left;
+} */
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: thistle;
+}
